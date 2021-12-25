@@ -30,7 +30,7 @@ To run this project,
 Our program **src/main.py** takes three command-line options. The first is the path to the training file, the second is the path to the test file and 
 the third is the path to the output file. 
 
-The assignment's training data can be found in [data/train.csv](data/train.csv),and the in-domain test data can be found in [data/test.csv](data/test.csv).
+The training data can be found in [data/train.csv](data/train.csv),and the in-domain test data can be found in [data/test.csv](data/test.csv).
 
 The output file must be generated in the [output/](output/) directory.
 
