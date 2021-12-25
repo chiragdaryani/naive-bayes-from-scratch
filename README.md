@@ -1,4 +1,4 @@
-# Naive Bayes for Relation Detection in Sentence from Scratch
+# Naive Bayes (from scratch) for Sentence Relation Classification
 
 In this project, our aim is to build a Naive Bayes model based on bag-of-word (BoW) features to classify the relation of a sentence. The program processes and classifies a sentence as indicating one of the following relations: publisher, director, performer, and characters.
 
