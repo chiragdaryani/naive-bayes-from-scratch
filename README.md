@@ -1,23 +1,6 @@
-# Intro to NLP - Assignment 5
+# Naive Bayes for Relation Detection from Scratch
 
-In this assignment, our aim is to build a Naive Bayes model based on bag-of-word (BoW) features to classify the relation of a sentence. The program processes and classifies a sentence as indicating one of the following relations: publisher, director, performer, and characters.
-
-## Team
-|Student name| CCID |
-|------------|------|
-|Chirag Daryani   |  cdaryani    |
-|Varshini Prakash   |  vprakash    |
-
-
-
-## 3-rd Party Libraries
-Apart from `nltk` and `pandas`, we have used the following 3rd party libraries:
-
-* `main.py L:258, L:395` used **`scikit-learn accuracy_score function`** for calculating the accuracy.
-* `main.py L:262` used **`scikit-learn confusion_matrix function`** for making the confusion matrix for the model predictions.
-* `main.py L:289` used **`scikit-learn precision_recall_fscore_support function`** for calculating the precision, recall for each class label.
-* `main.py L:303-308` used **`scikit-learn precision_score, recall_score functions`** for calculating the Micro-Macro Precision/Recall.
-* `main.py L:342` used **`scikit-learn KFold function`** for getting the object for implementing KFold Cross Validation.
+In this project, our aim is to build a Naive Bayes model based on bag-of-word (BoW) features to classify the relation of a sentence. The program processes and classifies a sentence as indicating one of the following relations: publisher, director, performer, and characters.
 
 
 ## How to Execute?
@@ -29,7 +12,7 @@ To run this project,
 3. Open Terminal in the directory you extracted the project folder to. 
 4. Change directory to the project folder using:
 
-    `cd f2021-asn5-chiragdaryani-main`
+    `cd naive-bayes-from-scratch-main`
    
 5. Install the required libraries, **Pandas** and **scikit-learn** using the following commands:
 
@@ -75,9 +58,4 @@ https://stackoverflow.com/questions/35178590/scikit-learn-confusion-matrix
 https://neptune.ai/blog/cross-validation-in-machine-learning-how-to-do-it-right
 
 https://stackoverflow.com/questions/5843518/remove-all-special-characters-punctuation-and-spaces-from-string
-
-## Note
-
-We are using the updated dataset (v2) for this project.
-
            
